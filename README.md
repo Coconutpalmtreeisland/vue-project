@@ -51,6 +51,9 @@ lenis 설치 : `npm install @studio-freight/lenis`
 - views: HomeView.vue 빼고 삭제
 
 - main.js: css 삭제
+- index.js: about 삭제
+
+## 페이지 설정 App.vue
 <details>
     <summary>App.vue 설정</summary>
     <script setup>
@@ -61,7 +64,7 @@ lenis 설치 : `npm install @studio-freight/lenis`
     </template>
 </details>
 
-- index.js: about 삭제
+## 페이지 설정 HomeView.vue
 <details>
     <summary>HomeView.vue 설정</summary>
     <script setup>
@@ -86,5 +89,15 @@ lenis 설치 : `npm install @studio-freight/lenis`
     </main>
     <FooterSection />
     </template>
+</details>
+
+## scss 설정
+
+## 트러블 슈팅
+<details>
+    <summary>
+        Whitespace 에러(LF will be replaced by CRLF the next time Git touches it)
+    </summary>
+    `git config --global core.autocrlf true`
 </details>
 
