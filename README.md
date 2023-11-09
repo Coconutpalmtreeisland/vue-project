@@ -56,17 +56,20 @@ lenis 설치 : `npm install @studio-freight/lenis`
 ## 페이지 설정 App.vue
 <details>
     <summary>App.vue 설정</summary>
+
     <script setup>
     import { RouterView } from "vue-router";
     </script>
     <template>
     <RouterView />
     </template>
+
 </details>
 
 ## 페이지 설정 HomeView.vue
 <details>
     <summary>HomeView.vue 설정</summary>
+
     <script setup>
     import ContactSection from '../components/ContactSection.vue';
     import FooterSection from '../components/FooterSection.vue';
@@ -89,6 +92,7 @@ lenis 설치 : `npm install @studio-freight/lenis`
     </main>
     <FooterSection />
     </template>
+    
 </details>
 
 ## scss 설정
@@ -98,6 +102,15 @@ lenis 설치 : `npm install @studio-freight/lenis`
     <summary>
         Whitespace 에러(LF will be replaced by CRLF the next time Git touches it)
     </summary>
+
     `git config --global core.autocrlf true`
+
 </details>
 
+## 배포 (vercel)
+1. Select a Git Namespace
+2. Add Github Account 계정 선택
+3. 배포할 git Import 클릭
+4. depoly 클릭
+5. 자동으로 배포 완료
+6. 도메인 이름 변경 `coconut-vue-project-omega-vert.vercel.app`
