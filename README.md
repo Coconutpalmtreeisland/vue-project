@@ -25,14 +25,14 @@ Vue.js는 간단한 프로젝트부터 대규모 웹 애플리케이션까지 �
 1. 최근 버전 설치 `npm init vue@latest`
 2. 파일 이름 설정 Project name: ... `vue-project`
 3. 추가 설치 설정
-√ Add TypeScript? ... <span style="color: blue">No<span> / Yes   
-√ Add JSX Support? ... No / <span style="color: blue">Yes<span>   
-√ Add Vue Router for Single Page Application development? ... No / <span style="color: blue">Yes<span>   
-√ Add Pinia for state management? ... <span style="color: blue">No<span> / Yes   
-√ Add Vitest for Unit Testing? ... <span style="color: blue">No<span> / Yes   
-√ Add an End-to-End Testing Solution? » <span style="color: blue">No<span> / Yes   
-√ Add ESLint for code quality? ... No / <span style="color: blue">Yes<span>   
-√ Add Prettier for code formatting? ... No / <span style="color: blue">Yes<span>   
+√ Add TypeScript? ... `No` / Yes   
+√ Add JSX Support? ... No / `Yes`
+√ Add Vue Router for Single Page Application development? ... No / `Yes`   
+√ Add Pinia for state management? ... `No` / Yes   
+√ Add Vitest for Unit Testing? ... `No` / Yes   
+√ Add an End-to-End Testing Solution? » `No` / Yes   
+√ Add ESLint for code quality? ... No / `Yes`   
+√ Add Prettier for code formatting? ... No / `Yes`
 
 4. 해당 파일 들어가기 `cd vue-project`
 5. 파일에 vue 설치 `npm install`
@@ -51,19 +51,18 @@ lenis 설치 : `npm install @studio-freight/lenis`
 - views: HomeView.vue 빼고 삭제
 
 - main.js: css 삭제
-- App.vue: <details>
+<details>
     <summary>App.vue 설정</summary>
     <script setup>
     import { RouterView } from "vue-router";
     </script>
-
     <template>
     <RouterView />
     </template>
 </details>
 
 - index.js: about 삭제
-- HomeView.vue: <details>
+<details>
     <summary>HomeView.vue 설정</summary>
     <script setup>
     import ContactSection from '../components/ContactSection.vue';
@@ -74,9 +73,7 @@ lenis 설치 : `npm install @studio-freight/lenis`
     import SiteSection from '../components/SiteSection.vue';
     import SkillSection from '../components/SkillSection.vue';
     import SkipSection from '../components/SkipSection.vue';
-
     </script>
-
     <template>
     <SkipSection />
     <HeaderSection />
